@@ -169,3 +169,9 @@ footer{
 #to-blue{
     background: #1F87C4;
 }
+.subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
