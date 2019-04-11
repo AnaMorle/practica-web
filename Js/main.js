@@ -52,5 +52,30 @@ $(document).ready(function(){
     $("#posts").append(post);
       });
 
+      //selector de tema
+      var theme = $("#theme");
+      $("#to-green").click(function(){
+        theme.attr("href" , "Css/green.css");
+        localStorage.setItem('tema','Css/green.css');
+      });
+      $("#to-red").click(function(){
+        theme.attr("href" , "Css/red.css");
+        localStorage.setItem('tema','Css/red.css');
+      });     
+      $("#to-blue").click(function(){
+        theme.attr("href" , "Css/blue.css");
+        localStorage.setItem('tema','Css/blue.css');
+      });
+//cargar ultimo tema elegido
+     if(localStorage.getItem('tema') == null || localStorage.getItem('tema') == "Css/green.css"){
+       localStorage.setItem('tema', "Css/green.css");
+       theme.attr("href" , "Css/green.css");
+     }else if(localStorage.getItem('tema') == "Css/red.css"){
+      localStorage.setItem('tema', "Css/red.css");
+      theme.attr("href" , "Css/red.css");
+     }else if(localStorage.getItem('tema') == "Css/blue.css"){
+      localStorage.setItem('tema', "Css/blue.css");
+      theme.attr("href" , "Css/blue.css");
+     }
 
 });
