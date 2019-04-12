@@ -9,12 +9,12 @@
         
         <!--JQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <!--slider-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-        <!--Moment Js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+        <link rel="stylesheet" href="Js/jquery-ui-1.12.1/jquery-ui.min.css" />
+		<link rel="stylesheet" href="Js/jquery-ui-1.12.1/jquery-ui.structure.min.css" />
+		<link rel="stylesheet" href="Js/jquery-ui-1.12.1/jquery-ui.theme.min.css" />
+
+		<script type="text/javascript" src="Js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        
         <!-- Mi Script-->
         <script src="Js/main.js"></script>
     </head>
@@ -44,19 +44,35 @@
                 </ul>
             </nav>
         </header>
-        <slider id="slidebar">
-                <div class="bxslider">
-                        <div><img src="img/cielo.jpg" title="Cielo"></div>
-                        <div><img src="img/hojas.jpg" title="Hojas"></div>
-                        <div><img src="img/rojo.jpg" title="Otoño"></div>
-                      </div>
-
-        </slider>
         
         <!--Contenido-->
         <section id="contenido">
-            <div id="posts">
-        <!--Carga los articulos desde Js-->
+            <div id="box">
+        <!--Carga acordeon-->
+        <h2>Sobre nosotros</h2>
+        <div id="acordeon">
+            <h3>¿Quienes somos?</h3>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ornare ligula, 
+                     a lobortis nunc. Praesent aliquet lorem quam.  
+                </p>
+            </div>
+            <h3>Nuestros Servicios</h3>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ornare ligula, 
+                     a lobortis nunc. Praesent aliquet lorem quam.  
+                </p>
+            </div>
+            <h3>Nuestros clientes</h3>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel ornare ligula, 
+                     a lobortis nunc. Praesent aliquet lorem quam.  
+                </p>
+            </div>
+        </div>
             </div>
             <aside id="sidebar">
                 <div id="about">

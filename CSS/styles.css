@@ -63,7 +63,8 @@ body{
     padding: 7px;
     margin-bottom: 20px;
 }
-.post h2{
+h2{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #333;
 }
@@ -176,4 +177,12 @@ footer{
     text-decoration: none;
     display: block;
     float: right;
+}
+#box{
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+#acordeon{
+    margin-top: 20px;
 }
